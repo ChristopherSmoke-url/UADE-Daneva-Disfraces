@@ -1,0 +1,71 @@
+.footer__img--logo {
+    width: auto;
+    height: 8rem;
+}
+
+.footer__div--navegacion {
+    display: flex;
+}
+
+.footer__nav--enlaces {
+    color: var(--color-principal-on);
+    font-size: clamp(1.1rem, 1.25vw, 1.3rem);
+
+    -webkit-text-stroke: 0.5px var(--color-secundario-on);
+}
+
+.footer__nav--enlaces h4 {
+    margin: 0;
+}
+
+
+.footer__nav--enlaces a {
+    color: var(--color-principal-on);
+    font-size: clamp(1.1rem, 1.25vw, 1.3rem);
+    text-decoration: none;
+
+    -webkit-text-stroke: 1.2px var(--color-secundario-on);
+}
+
+.footer__nav--enlaces a:hover {
+    text-decoration: underline;
+}
+
+.footer__nav--enlaces ul {
+    margin: 0;
+}
+
+.footer__nav--contacto {
+    color: var(--color-principal-on);
+    font-size: clamp(1.1rem, 1.25vw, 1.3rem);
+
+    -webkit-text-stroke: 0.5px var(--color-secundario-on);
+}
+
+.footer__nav--contacto h4 {
+    margin: 0;
+}
+
+.footer__nav--contacto a {
+    color: var(--color-principal-on);
+    font-size: clamp(1.1rem, 1.25vw, 1.3rem);
+    text-decoration: none;
+
+    -webkit-text-stroke: 1.2px var(--color-secundario-on);
+}
+
+.footer__nav--contacto a:hover {
+    text-decoration: underline;
+}
+
+.footer__nav--contacto ul {
+    margin: 0;
+}
+
+.footer__nav--contacto li {
+    -webkit-text-stroke: 1.2px var(--color-secundario-on);
+}
+
+#boton__contactanos--footer {
+    font-size: 1.5rem;
+}

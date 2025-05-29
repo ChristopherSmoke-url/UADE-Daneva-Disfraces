@@ -1,0 +1,24 @@
+.header__nav--principal {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header__nav--principal a {
+    color: var(--color-principal-on);
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease, -webkit-text-stroke 0.3s ease;
+
+    text-align: center;
+}
+
+.header__nav--principal a:hover {
+    color: var(--color-secundario-off);
+    -webkit-text-stroke: var(--texto-decoracion-contorno-primario) var(--color-secundario-on);
+    text-decoration: underline;
+}
+
+.header__nav--secundaria {
+    display: flex;
+    align-items: center;
+}

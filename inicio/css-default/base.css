@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/borsok');
+
+:root {
+    --color-principal-on: #ffffff;
+    --color-principal-off: #872bf5;
+    --color-secundario-on: #f79d09;
+    --color-secundario-off: #f8df06;
+    --color-terciario-on: #2b9f4a;
+    --color-terciario-off: #36d460;
+    --color-fondo: #fffae6;
+
+    --texto-tamaño-grande: clamp(2.8rem, 2.08vw, 3rem);
+    --texto-tamaño-mediano: clamp(2.4rem, 1.92vw, 2.6rem);
+    --texto-tamaño-pequeño: clamp(2rem, 1.67vw, 2.2rem);
+    --texto-tamaño-a: clamp(1.5rem, 1.25vw, 1.7rem);
+    --texto-tamaño-p: clamp(1.8rem, 1.58vw, 2rem);
+    --texto-decoracion-contorno-primario: 1px;
+    --texto-decoracion-contorno-secundario: 1.5px;
+
+    --elementos-decoracion-padding: 2%;
+    --elementos-decoracion-margin: 4% 0%;
+    --elementos-decoracion-redondeado: 1.5em;
+    --elementos-decoracion-gap: 3rem;
+    --elementos-decoracion-border: 0.5rem solid;
+    --elementos-decoracion-box-shadow-principal: #250a4059 2px 2px 5px 2px;
+    --elementos-decoracion-box-shadow-color-principal-inset: #7900e3 1px 1px 9px 6px inset;
+}
+
+
+
+/* CONFIGURACIONES BODY: HEADER - MAIN - FOOTER */
+
+
+
+body {
+    padding-top: 2rem;
+
+    background-color: var(--color-fondo);
+    font-family: 'Borsok', sans-serif;
+}
+
+header {
+    padding: var(--elementos-decoracion-padding);
+    margin: auto;
+    width: 54rem;
+    position: relative;
+    z-index: 10;
+
+    background-color: var(--color-principal-off);
+    font-size: var(--texto-tamaño-a);
+
+    display: flex;
+    gap: var(--elementos-decoracion-gap);
+    justify-content: center;
+    
+    border-radius: var(--elementos-decoracion-redondeado);
+    border: var(--elementos-decoracion-border) var(--color-principal-on);
+    box-shadow: var(--elementos-decoracion-box-shadow-principal);
+
+    transition: border-color 0.3s ease;
+}
+
+header:hover {
+    border: var(--elementos-decoracion-border) var(--color-secundario-off);
+}
+
+main {
+    position: relative;
+    top: -3.5rem;
+    z-index: 1;
+}
+
+footer {
+    padding: 2% 4%;
+    
+    background-color: var(--color-principal-off);
+    color: var(--color-principal-on);
+
+    display: flex;
+    gap: var(--elementos-decoracion-gap);
+    justify-content: center;
+    align-items: center;
+
+    border-radius: var(--elementos-decoracion-redondeado);
+    border: var(--elementos-decoracion-border) var(--color-principal-on);
+}

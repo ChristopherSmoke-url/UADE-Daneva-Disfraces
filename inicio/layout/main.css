@@ -1,0 +1,491 @@
+/* SEPARACIONES */
+
+
+
+.main__section--separacion {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin: var(--elementos-decoracion-margin);
+    
+    background-color: var(--color-principal-off);
+    color: var(--color-principal-on);
+
+    border-radius: var(--elementos-decoracion-redondeado);
+    border: var(--elementos-decoracion-border) var(--color-principal-on);
+    box-shadow: var(--elementos-decoracion-box-shadow-color-principal-inset);
+
+    transition: border-color 0.3s ease;
+}
+
+.main__section--separacion:hover {
+    border-color: var(--color-secundario-off);
+}
+
+.main__section--separacion h4 {
+    position: relative;
+    padding: 0.5rem 1rem;
+    margin: 0% 0% 3% 0%;
+    z-index: 1;
+
+    background-color: inherit;
+    font-size: var(--texto-tamaño-pequeño);
+    text-align: center;
+    -webkit-text-stroke: var(--texto-decoracion-contorno-primario) var(--color-principal-off);
+}
+
+.main__section--separacion h4::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    width: 110%;
+    height: 40%;
+
+    background-color: var(--color-secundario-off);
+
+    border: var(--elementos-decoracion-border) var(--color-secundario-on);
+    border-radius: var(--elementos-decoracion-redondeado);
+    z-index: -1;
+}
+
+.main__section--separacion p {
+    margin: 0%;
+
+    font-size: var(--texto-tamaño-p);
+    font-style: normal;
+    text-align: center;
+    -webkit-text-stroke: var(--texto-decoracion-contorno-secundario) var(--color-secundario-on);
+
+    cursor: auto;
+}
+
+.main__section--separacion p > a {
+    text-decoration: none;
+    color: var(--color-principal-on);
+    -webkit-text-stroke: var(--texto-decoracion-contorno-secundario) var(--color-secundario-on);
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.main__section--separacion p > a:hover {
+    text-decoration: underline;
+    color: var(--color-secundario-off);
+}
+
+#boton__contactanos--landing {
+    transition: font-size 0.3s ease;
+}
+
+#boton__contactanos--landing:hover {
+    font-size: var(--texto-tamaño-p);
+}
+
+
+
+/* MAIN */
+
+
+
+.main__section--landing {
+    position: relative;
+
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__section--landing h1 {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50% 50% 99% 99%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.landing__banner--container {
+    margin: auto;
+    width: 68.5rem;
+    position: relative;
+    height: 25rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-principal-off);
+
+    border-color: var(--color-principal-off);
+
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.landing__banner--container:hover {
+    background-color: var(--color-secundario-off);
+}
+
+.landing__banner--container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+    border-radius: var(--elementos-decoracion-redondeado);
+}
+
+.banner__flecha {
+    position: absolute;
+    padding: var(--elementos-decoracion-padding);
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 15;
+    height: 5rem;
+    width: 5rem;
+
+    background-color: var(--color-secundario-off);
+    color: var(--color-secundario-on);
+
+    border: var(--elementos-decoracion-border) var(--color-secundario-on);
+    border-radius: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, height 0.3s ease, width 0.3s ease;
+}
+
+.banner__flecha:hover {
+    height: 6rem;
+    width: 6rem;
+
+    background-color: var(--color-secundario-on);
+    border-color: var(--color-secundario-off);
+}
+
+.banner__flecha--anterior {
+    left: -2.5rem;
+}
+
+.banner__flecha--siguiente {
+    right: -2.5rem;
+}
+
+#boton__contactanos--landing {
+    position: relative;
+    top: -4rem;
+}
+
+
+
+/* MAIN: SEPARACIONES */
+
+
+
+#section__separacion--primero {
+    margin: 0%;
+}
+
+#section__separacion--segundo {
+    margin: 0%;
+}
+
+
+
+/* MAIN: CATALOGO */
+
+
+
+.main__section--catalogo {
+    margin: var(--elementos-decoracion-margin);
+}
+
+.main__section--catalogo h2 {
+    -webkit-text-stroke: 0.2px var(--color-principal-on);
+}
+
+.main__section--catalogo h2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    width: 310%;
+    height: 90%;
+
+    background-color: var(--color-secundario-off);
+
+    border: var(--elementos-decoracion-border) var(--color-secundario-on);
+    border-radius: var(--elementos-decoracion-redondeado);
+    z-index: -1;
+}
+
+.section__ul--catalogo {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    width: 85%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--elementos-decoracion-gap);
+}
+
+.section__ul--catalogo li {
+    width: 16%;
+    aspect-ratio: 1 / 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-principal-on);
+
+    border-color: var(--color-principal-off);
+    overflow: hidden;
+}
+
+.section__ul--catalogo li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.section__ul--catalogo li a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* MAIN: PROPUESTA */
+
+
+
+.main__section--propuesta {
+    margin: var(--elementos-decoracion-margin);
+}
+
+.main__section--propuesta h2 {
+    -webkit-text-stroke: 0.2px var(--color-principal-on);
+}
+
+.main__section--propuesta h2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    width: 130%;
+    height: 90%;
+
+    background-color: var(--color-secundario-off);
+
+    border: var(--elementos-decoracion-border) var(--color-secundario-on);
+    border-radius: var(--elementos-decoracion-redondeado);
+    z-index: -1;
+}
+
+.section__div--propuesta {
+    margin: 0% 6%;
+
+    display: flex;
+    gap: var(--elementos-decoracion-gap);
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__section--propuesta ol {
+    padding: 0;
+    margin: 0;
+    
+    text-align: center;
+}
+
+.section__div--propuesta li {
+    list-style-type: none;
+    margin: 0.5rem;
+
+    color: var(--color-principal-on);
+    -webkit-text-stroke: 2px var(--color-principal-off);
+    font-size: var(--texto-tamaño-mediano);
+
+    transition: color 0.3s ease, -webkit-text-stroke 0.3s ease, font-size 0.3s ease;
+}
+
+.section__div--propuesta li:hover {
+    color: var(--color-secundario-off);
+    -webkit-text-stroke: 2px var(--color-secundario-on);
+
+    font-size: var(--texto-tamaño-grande);
+
+    cursor: default;
+}
+
+.div__img--propuesta {
+    padding: var(--elementos-decoracion-padding);
+    width: auto;
+    height: 14rem;
+
+    transition: height 0.3s ease;
+}
+
+.div__img--propuesta:hover {
+    height: 18rem;
+}
+
+
+
+/* MAIN: DANEVA DISFRACES */
+
+
+
+.main__section--empresa {
+    position: relative;
+    margin: 0%;
+
+    color: var(--color-principal-on);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: default;
+}
+
+.main__section--empresa h2 {
+    -webkit-text-stroke: var(--texto-decoracion-contorno-secundario) var(--color-principal-off);
+}
+
+.main__section--empresa h2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    width: 110%;
+    height: 50%;
+
+    background-color: var(--color-secundario-off);
+
+    border: var(--elementos-decoracion-border) var(--color-secundario-on);
+    border-radius: var(--elementos-decoracion-redondeado);
+    z-index: -1;
+}
+
+.section__div--empresa {
+    margin: auto;
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__div--empresa p {
+    padding: 0% 2% 4% 2%;
+
+    line-height: 3rem;
+    text-align: center;
+    font-size: var(--texto-tamaño-p);
+
+    transition: color 0.3s ease;
+}
+
+.section__div--empresa p:hover {
+    -webkit-text-stroke: var(--texto-decoracion-contorno-secundario) var(--color-secundario-on);
+}
+
+#boton__catalogo--empresa {
+    padding: 2%;
+    position: relative;
+    top: -3.5rem;
+
+    font-size: 2rem;
+
+    transition: font-size 0.3s ease;
+}
+
+#boton__catalogo--empresa:hover {
+    font-size: 2.5rem;
+}
+
+
+
+/* MAIN: UBICACION */
+
+
+
+.main__section--ubicacion {
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+.main__section--ubicacion h2 {
+    -webkit-text-stroke: 0.2px var(--color-principal-on);
+}
+
+.main__section--ubicacion h2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    width: 155%;
+    height: 90%;
+
+    background-color: var(--color-secundario-off);
+
+    border: var(--elementos-decoracion-border) var(--color-secundario-on);
+    border-radius: var(--elementos-decoracion-redondeado);
+    z-index: -1;
+}
+
+.ubicacion__mapa--contenedor {
+    width: 80%;
+
+    border-color: var(--color-principal-off);
+    overflow: hidden;
+}
+
+.ubicacion__mapa--contenedor iframe {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 19rem;
+    border: 0;
+}
+
+.main__section--ubicacion a {
+    margin-top: 2rem;
+
+    font-size: var(--texto-tamaño-p);
+    color: var(--color-principal-on);
+    -webkit-text-stroke: var(--texto-decoracion-contorno-primario) var(--color-principal-off);
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: color 0.3s ease, -webkit-text-stroke 0.3s ease;
+}
+
+.main__section--ubicacion a:hover {
+    color: var(--color-secundario-off);
+    -webkit-text-stroke: var(--texto-decoracion-contorno-secundario) var(--color-secundario-on);
+}
