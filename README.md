@@ -3,7 +3,7 @@ LANDING PAGE (Inicio + P-frecuentes + Contactanos) PARA LA EMPRESA "DANEVA DISFR
 PROGRAMACIÓN FRONT-END: CHRISTOPHER NICOLÁS COSTILLA.
 BRANDING: CHRISTOPHER NICOLÁS COSTILLA & EQUIPO UNIVERSITARIO UADE (se reserva el derecho a privacidad de sus nombres).
 
--- PÁGINA AUN SIN PERFECCIONAR, VERSIÓN BETA 2.0 --
+-- PÁGINA AUN SIN PERFECCIONAR, VERSIÓN BETA 3.0 --
 
 - Última actualización: 29/05/2025.
 
@@ -22,15 +22,14 @@ Normalize.css
 
 INICIO:
 - Layout: Header.css + main.css + footer.css
-- Main.html
 
 P-FRECUENTES:
 - Layout: Header.css + main.css [SIN MODIFICACIONES EN EL MAIN.CSS]
-- Main.html
+- Index.html
 
 CONTACTANOS:
 - Layout: Header.css + main.css + footer.css
-- Main.html
+- Index.html
 
 ----------------------------------------------
 
@@ -61,4 +60,3 @@ RECOMENDACIONES:
 
 MODIFICACIÓN DE DATOS:
 - Email: Se recomienda crear un correo exclusivo para la empresa, de esta forma se puede conseguir una mayor profesionalidad y confianza en los prospectos.
-- Número de teléfono:
