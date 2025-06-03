@@ -5,7 +5,7 @@ BRANDING: CHRISTOPHER NICOLÁS COSTILLA & EQUIPO UNIVERSITARIO UADE (se reserva 
 
 -- PÁGINA AUN SIN PERFECCIONAR, VERSIÓN BETA 3.0 --
 
-- Última actualización: 29/05/2025.
+- Última actualización: 03/06/2025.
 
 MÉTODO DE CLASES: Bloque__elemento--modificador.
 FUENTE DE TEXTO: ["Borsok"](https://fonts.cdnfonts.com/css/borsok).
