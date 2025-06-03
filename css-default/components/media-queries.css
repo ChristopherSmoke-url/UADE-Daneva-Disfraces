@@ -1,6 +1,8 @@
 @media (min-width: 1190px) and (max-width: 2700px) {
 }
 
+
+
 @media (min-width: 1050px) and (max-width: 1190px) {
     header {
         padding: 1%;
@@ -17,6 +19,8 @@
         height: 22rem;
     }
 }
+
+
 
 @media (min-width: 860px) and (max-width: 1050px) {
     body {
@@ -151,8 +155,142 @@
     }
 }
 
+
+
 @media (min-width: 425px) and (max-width: 860px) {
+    body {
+        padding-top: 1rem;
+    }
+
+    header {
+        padding: 1% 5%;
+        width: 35rem;
+
+        font-size: 1.2rem;
+    }
+
     main {
+        top: -2rem;
         background-color: black;
+    }
+
+    .main-section__h2 {
+        font-size: 2rem;
+    }
+
+    .main-section__h3 {
+        font-size: 2rem;
+    }
+
+    .main__section--separacion {
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .main__section--separacion h4 {
+        font-size: 1.5rem;
+    }
+
+    .main__section--separacion h4::before {
+        width: 100%;
+        height: 30%;
+    }
+
+    .main__section--separacion p {
+        font-size: 1.3rem;
+    }
+
+    .landing__banner--container {
+        margin: auto;
+        width: 40rem;
+        position: relative;
+        height: 14.5rem;
+    }
+
+    #boton__contactanos--landing {
+        font-size: 1.25rem;
+        top: -2.8rem;
+    }
+
+    #boton__contactanos--landing:hover {
+        font-size: 1.5rem;
+    }
+
+    .boton__contactanos {
+        padding: 1rem 2.8rem;
+    }
+
+    .banner__flecha {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .banner__flecha:hover {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .section__div--propuesta li {
+        font-size: 2rem;
+    }
+
+    .section__div--propuesta li:hover {
+        font-size: 2.5rem;
+    }
+
+    .div__img--propuesta {
+        height: 10rem;
+    }
+
+    .div__img--propuesta:hover {
+        height: 12rem;
+    }
+
+    .section__div--empresa {
+        width: 80%;
+    }
+
+    .section__div--empresa p {
+        line-height: 2.3rem;
+        font-size: 1.4rem;
+    }
+
+    #boton__catalogo--empresa {
+        top: -3rem;
+
+        font-size: 1.5rem;
+    }
+
+    #boton__catalogo--empresa:hover {
+        font-size: 1.8rem;
+    }
+
+    .main__section--ubicacion a {
+        font-size: 1.5rem;
+    }
+
+    .footer__img--logo {
+        height: 6rem;
+    }
+
+    .footer__nav--enlaces {
+        font-size: clamp(1rem, 1.25vw, 1.2rem);
+    }
+
+    .footer__nav--enlaces a {
+        font-size: clamp(1rem, 1.25vw, 1.2rem);
+    }
+
+    .footer__nav--contacto {
+        font-size: clamp(1rem, 1.25vw, 1.2rem);
+    }
+
+    .footer__nav--contacto a {
+        font-size: clamp(1rem, 1.25vw, 1.2rem);
+    }
+
+    #boton__contactanos--footer {
+        padding: 1rem 1.3rem;
+        font-size: 1.2rem;
     }
 }
