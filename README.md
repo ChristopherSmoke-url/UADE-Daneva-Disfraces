@@ -3,9 +3,9 @@ LANDING PAGE (Inicio + P-frecuentes + Contactanos) PARA LA EMPRESA "DANEVA DISFR
 PROGRAMACIÓN FRONT-END: CHRISTOPHER NICOLÁS COSTILLA.
 BRANDING: CHRISTOPHER NICOLÁS COSTILLA & EQUIPO UNIVERSITARIO UADE (se reserva el derecho a privacidad de sus nombres).
 
--- PÁGINA AUN SIN PERFECCIONAR, VERSIÓN BETA 3.0 --
+-- PÁGINA AUN SIN PERFECCIONAR, VERSIÓN BETA 5.0 --
 
-- Última actualización: 29/05/2025.
+- Última actualización: 04/06/2025.
 
 MÉTODO DE CLASES: Bloque__elemento--modificador.
 FUENTE DE TEXTO: ["Borsok"](https://fonts.cdnfonts.com/css/borsok).
