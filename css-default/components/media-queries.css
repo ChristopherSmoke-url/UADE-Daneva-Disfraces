@@ -157,7 +157,7 @@
 
 
 
-@media (min-width: 425px) and (max-width: 860px) {
+@media (min-width: 725px) and (max-width: 860px) {
     body {
         padding-top: 1rem;
     }
@@ -170,8 +170,7 @@
     }
 
     main {
-        top: -2rem;
-        background-color: black;
+        top: -1.5rem;
     }
 
     .main-section__h2 {
@@ -197,7 +196,7 @@
     }
 
     .main__section--separacion p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .landing__banner--container {
@@ -266,7 +265,7 @@
     }
 
     .main__section--ubicacion a {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .footer__img--logo {
@@ -274,23 +273,705 @@
     }
 
     .footer__nav--enlaces {
-        font-size: clamp(1rem, 1.25vw, 1.2rem);
-    }
-
-    .footer__nav--enlaces a {
-        font-size: clamp(1rem, 1.25vw, 1.2rem);
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
     }
 
     .footer__nav--contacto {
-        font-size: clamp(1rem, 1.25vw, 1.2rem);
-    }
-
-    .footer__nav--contacto a {
-        font-size: clamp(1rem, 1.25vw, 1.2rem);
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
     }
 
     #boton__contactanos--footer {
         padding: 1rem 1.3rem;
         font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 645px) and (max-width: 725px) {
+    body {
+        padding-top: 1rem;
+    }
+
+    header {
+        padding: 1% 5%;
+        width: 30rem;
+
+        font-size: 1rem;
+    }
+
+    main {
+        top: -1.2rem;
+    }
+
+    .main-section__h2 {
+        font-size: 2rem;
+    }
+
+    .main-section__h3 {
+        font-size: 2rem;
+    }
+
+    .main__section--separacion {
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .main__section--separacion h4 {
+        font-size: 1.5rem;
+    }
+
+    .main__section--separacion h4::before {
+        width: 100%;
+        height: 30%;
+    }
+
+    .main__section--separacion p {
+        font-size: 1.3rem;
+    }
+
+    .landing__banner--container {
+        margin: auto;
+        width: 35rem;
+        position: relative;
+        height: 13rem;
+    }
+
+    #boton__contactanos--landing {
+        font-size: 1.5rem;
+        top: -2.8rem;
+    }
+
+    #boton__contactanos--landing:hover {
+        font-size: 1.5rem;
+    }
+
+    .boton__contactanos {
+        padding: 1rem 2.8rem;
+    }
+
+    .banner__flecha {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .banner__flecha:hover {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .section__ul--catalogo li {
+        width: 40%;
+    }
+
+    .section__div--propuesta li {
+        font-size: 2rem;
+    }
+
+    .section__div--propuesta li:hover {
+        font-size: 2.5rem;
+    }
+
+    .div__img--propuesta {
+        height: 10rem;
+    }
+
+    .div__img--propuesta:hover {
+        height: 12rem;
+    }
+
+    .section__div--empresa {
+        width: 80%;
+    }
+
+    .section__div--empresa p {
+        line-height: 2.3rem;
+        font-size: 1.4rem;
+    }
+
+    #boton__catalogo--empresa {
+        top: -3rem;
+
+        font-size: 1.8rem;
+    }
+
+    #boton__catalogo--empresa:hover {
+        font-size: 1.8rem;
+    }
+
+    .main__section--ubicacion a {
+        font-size: 1.1rem;
+    }
+
+    .footer__img--logo {
+        height: 6rem;
+    }
+
+    .footer__nav--enlaces {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    .footer__nav--contacto {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    #boton__contactanos--footer {
+        padding: 1rem 1.3rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 645px) {
+    body {
+        padding-top: 1rem;
+    }
+
+    header {
+        padding: 1% 5%;
+        width: 25rem;
+
+        font-size: 0.8rem;
+        gap: 0.6rem;
+    }
+
+    main {
+        top: 1rem;
+    }
+
+    .main-section__h2 {
+        font-size: 2rem;
+    }
+
+    .main-section__h3 {
+        font-size: 1.4rem;
+    }
+
+    .main__section--separacion {
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .main__section--separacion h4 {
+        font-size: 1.5rem;
+    }
+
+    .main__section--separacion h4::before {
+        width: 100%;
+        height: 30%;
+    }
+
+    .main__section--separacion p {
+        font-size: 1.2rem;
+    }
+
+    .landing__banner--container {
+        margin: auto;
+        width: 26rem;
+        position: relative;
+        height: 9.5rem;
+    }
+
+    #boton__contactanos--landing {
+        font-size: 1rem;
+        top: -2rem;
+    }
+
+    #boton__contactanos--landing:hover {
+        font-size: 1.5rem;
+    }
+
+    .boton__contactanos {
+        padding: 1rem 2.8rem;
+    }
+
+    .banner__flecha {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .banner__flecha:hover {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .main__section--catalogo h2::before {
+        width: 250%;
+        height: 80%;
+    }
+
+    .section__ul--catalogo li {
+        width: 40%;
+    }
+
+    .main__section--propuesta h2::before {
+        width: 110%;
+        height: 80%;
+    }
+
+    .section__div--propuesta li {
+        font-size: 1.5rem;
+    }
+
+    .section__div--propuesta li:hover {
+        font-size: 1.5rem;
+    }
+
+    .div__img--propuesta {
+        height: 8rem;
+    }
+
+    .div__img--propuesta:hover {
+        height: 12rem;
+    }
+
+    .section__div--empresa {
+        width: 80%;
+    }
+
+    .section__div--empresa p {
+        line-height: 2.3rem;
+        font-size: 1.2rem;
+    }
+
+    #boton__catalogo--empresa {
+        top: -2rem;
+
+        font-size: 1.5rem;
+    }
+
+    #boton__catalogo--empresa:hover {
+        font-size: 1.8rem;
+    }
+
+    .main__section--ubicacion h2::before {
+        width: 130%;
+        height: 80%;
+    }
+
+    .ubicacion__mapa--contenedor {
+        margin-bottom: 4rem;
+    }
+
+    .main__section--ubicacion a {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    .footer__img--logo {
+        height: 6rem;
+    }
+
+    .footer__nav--enlaces {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    .footer__nav--contacto {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    #boton__contactanos--footer {
+        padding: 1rem 1.3rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+    body {
+        padding-top: 1rem;
+    }
+
+    header {
+        padding: 1% 5%;
+        width: 20rem;
+
+        font-size: 0.75em;
+        gap: 0.5rem;
+    }
+
+    main {
+        top: 1rem;
+    }
+
+    .boton__catalogo {
+        padding: 0.6rem 1.3rem;
+    }
+
+    .main-section__h2 {
+        font-size: 1.5rem;
+    }
+
+    .main-section__h3 {
+        font-size: 1rem;
+    }
+
+    .header__nav--principal {
+        gap: 0.5rem;
+    }
+
+    .main__section--separacion {
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .main__section--separacion h4 {
+        font-size: 1.2rem;
+    }
+
+    .main__section--separacion h4::before {
+        width: 95%;
+        height: 30%;
+    }
+
+    .main__section--separacion p {
+        font-size: 1.1rem;
+    }
+
+    .landing__banner--container {
+        margin: auto;
+        width: 18rem;
+        position: relative;
+        height: 6.5rem;
+    }
+
+    #boton__contactanos--landing {
+        padding: 0.7rem 2rem;
+        font-size: 1.3rem;
+        top: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    #boton__contactanos--landing:hover {
+        font-size: 1.5rem;
+    }
+
+    .boton__contactanos {
+        padding: 1rem 2.8rem;
+    }
+
+    .banner__flecha {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .banner__flecha:hover {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .main__section--catalogo h2::before {
+        width: 240%;
+        height: 70%;
+    }
+
+    .section__ul--catalogo li {
+        width: 35%;
+    }
+
+    .main__section--propuesta h2::before {
+        width: 100%;
+        height: 70%;
+    }
+
+    .section__div--propuesta li {
+        font-size: 1.1rem;
+    }
+
+    .section__div--propuesta li:hover {
+        font-size: 1.1rem;
+    }
+
+    .div__img--propuesta {
+        height: 6rem;
+    }
+
+    .div__img--propuesta:hover {
+        height: 12rem;
+    }
+
+    .section__div--empresa {
+        width: 80%;
+    }
+
+    .section__div--empresa p {
+        line-height: 2rem;
+        font-size: 0.9rem;
+    }
+
+    #boton__catalogo--empresa {
+        top: -2rem;
+
+        font-size: 1.5rem;
+    }
+
+    #boton__catalogo--empresa:hover {
+        font-size: 1.8rem;
+    }
+
+    .main__section--ubicacion h2::before {
+        width: 120%;
+        height: 70%;
+    }
+
+    .ubicacion__mapa--contenedor {
+        margin-bottom: 4rem;
+    }
+
+    .main__section--ubicacion a {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    .footer__img--logo {
+        height: 3rem;
+    }
+
+    .footer__nav--enlaces {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    .footer__nav--contacto {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    #boton__contactanos--footer {
+        padding: 1rem 1.3rem;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    body {
+        padding-top: 1rem;
+    }
+
+    header {
+        padding: 1% 5%;
+        width: 17rem;
+
+        font-size: 0.6em;
+        gap: 0.5rem;
+    }
+
+    main {
+        top: 1rem;
+    }
+
+    .boton__catalogo {
+        padding: 0.6rem 1.3rem;
+    }
+
+    .main-section__h2 {
+        font-size: 1.4rem;
+    }
+
+    .main-section__h3 {
+        font-size: 0.9rem;
+    }
+
+    .header__nav--principal {
+        gap: 0.5rem;
+    }
+
+    .main__section--separacion {
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .main__section--separacion h4 {
+        font-size: 1rem;
+    }
+
+    .main__section--separacion h4::before {
+        width: 90%;
+        height: 30%;
+    }
+
+    .main__section--separacion p {
+        font-size: 0.9rem;
+    }
+
+    .landing__banner--container {
+        margin: auto;
+        width: 15rem;
+        position: relative;
+        height: 5.5rem;
+    }
+
+    #boton__contactanos--landing {
+        padding: 0.7rem 2rem;
+        font-size: 1.2rem;
+        top: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    #boton__contactanos--landing:hover {
+        font-size: 1.5rem;
+    }
+
+    .boton__contactanos {
+        padding: 1rem 2.8rem;
+    }
+
+    .banner__flecha {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .banner__flecha:hover {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .main__section--catalogo h2::before {
+        width: 230%;
+        height: 60%;
+    }
+
+    .section__ul--catalogo li {
+        width: 35%;
+    }
+
+    .main__section--propuesta h2::before {
+        width: 100%;
+        height: 60%;
+    }
+
+    .section__div--propuesta li {
+        font-size: 0.9rem;
+    }
+
+    .section__div--propuesta li:hover {
+        font-size: 0.9rem;
+    }
+
+    .div__img--propuesta {
+        height: 5rem;
+    }
+
+    .div__img--propuesta:hover {
+        height: 6rem;
+    }
+
+    .section__div--empresa {
+        width: 80%;
+    }
+
+    .section__div--empresa p {
+        line-height: 1.8rem;
+        font-size: 0.8rem;
+    }
+
+    #boton__catalogo--empresa {
+        top: -1.5rem;
+
+        font-size: 1.3rem;
+    }
+
+    #boton__catalogo--empresa:hover {
+        font-size: 1.8rem;
+    }
+
+    .main__section--ubicacion h2::before {
+        width: 110%;
+        height: 60%;
+    }
+
+    .ubicacion__mapa--contenedor {
+        margin-bottom: 4rem;
+    }
+
+    .main__section--ubicacion a {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    .footer__img--logo {
+        height: 3rem;
+    }
+
+    .footer__nav--enlaces {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    .footer__nav--contacto {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50% 50% 99% 99%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    }
+
+    #boton__contactanos--footer {
+        padding: 1rem 1rem;
+        font-size: 0.7rem;
     }
 }
