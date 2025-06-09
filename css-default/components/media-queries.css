@@ -268,23 +268,11 @@
     }
 
     .footer__nav--enlaces {
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50% 50% 99% 99%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
+        display: none;
     }
 
     .footer__nav--contacto {
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50% 50% 99% 99%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
+        display: none;
     }
 
     #boton__contactanos--footer {
@@ -413,23 +401,11 @@
     }
 
     .footer__nav--enlaces {
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50% 50% 99% 99%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
+        display: none;
     }
 
     .footer__nav--contacto {
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50% 50% 99% 99%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
+        display: none;
     }
 
     #boton__contactanos--footer {
@@ -527,6 +503,7 @@
 
     .section__div--propuesta li {
         font-size: 1.5rem;
+        -webkit-text-stroke: 1px var(--color-principal-off);
     }
 
     .section__div--propuesta li:hover {
@@ -570,13 +547,7 @@
     }
 
     .main__section--ubicacion a {
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50% 50% 99% 99%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
+        display: none;
     }
 
     .footer__img--logo {
@@ -584,23 +555,11 @@
     }
 
     .footer__nav--enlaces {
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50% 50% 99% 99%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
+        display: none;
     }
 
     .footer__nav--contacto {
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50% 50% 99% 99%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
+        display: none;
     }
 
     #boton__contactanos--footer {
@@ -658,6 +617,7 @@
 
     .main__section--separacion p {
         font-size: 1.1rem;
+        -webkit-text-stroke: 1px var(--color-secundario-on);
     }
 
     .landing__banner--container {
@@ -820,6 +780,7 @@
 
     .main__section--separacion p {
         font-size: 0.9rem;
+        -webkit-text-stroke: 1px var(--color-secundario-on);
     }
 
     .landing__banner--container {
@@ -912,13 +873,7 @@
     }
 
     .main__section--ubicacion a {
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50% 50% 99% 99%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
+        display: none;
     }
 
     .footer__img--logo {
@@ -926,27 +881,182 @@
     }
 
     .footer__nav--enlaces {
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50% 50% 99% 99%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
+        display: none;
     }
 
     .footer__nav--contacto {
-        clip: rect(1px, 1px, 1px, 1px);
-        clip-path: inset(50% 50% 99% 99%);
-        height: 1px;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
+        display: none;
     }
 
     #boton__contactanos--footer {
         padding: 1rem 1rem;
         font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 320px) {
+    body {
+        padding-top: 1rem;
+    }
+
+    header {
+        padding: 1% 5%;
+        width: 11rem;
+
+        font-size: 0.1em;
+        gap: 0.5rem;
+    }
+
+    main {
+        top: 1rem;
+    }
+
+    footer {
+        gap: 0.5rem;
+    }
+
+    .boton__catalogo {
+        padding: 0.2rem 0.4rem;
+    }
+
+    .main-section__h2 {
+        font-size: 0.9rem;
+    }
+
+    .main-section__h3 {
+        font-size: 0.5rem;
+    }
+
+    .header__nav--principal {
+        gap: 0.5rem;
+    }
+
+    .main__section--separacion {
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .main__section--separacion h4 {
+        font-size: 0.5rem;
+    }
+
+    .main__section--separacion h4::before {
+        width: 90%;
+        height: 10%;
+    }
+
+    .main__section--separacion p {
+        font-size: 0.5rem;
+        -webkit-text-stroke: 1px var(--color-secundario-on);
+    }
+
+    .landing__banner--container {
+        margin: auto;
+        width: 11rem;
+        position: relative;
+        height: 4rem;
+    }
+
+    #boton__contactanos--landing {
+        padding: 0.7rem 2rem;
+        font-size: 1.2rem;
+        top: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    #boton__contactanos--landing:hover {
+        font-size: 1.5rem;
+    }
+
+    .boton__contactanos {
+        padding: 1rem 2.8rem;
+    }
+
+    .banner__flecha {
+        display: none;
+    }
+
+    .banner__flecha:hover {
+        display: none;
+    }
+
+    .main__section--catalogo h2::before {
+        width: 230%;
+        height: 60%;
+    }
+
+    .section__ul--catalogo li {
+        width: 35%;
+    }
+
+    .main__section--propuesta h2::before {
+        width: 100%;
+        height: 60%;
+    }
+
+    .section__div--propuesta li {
+        font-size: 0.9rem;
+        -webkit-text-stroke: 1px var(--color-principal-off);
+    }
+
+    .section__div--propuesta li:hover {
+        font-size: 0.9rem;
+    }
+
+    .div__img--propuesta {
+        height: 5rem;
+    }
+
+    .div__img--propuesta:hover {
+        height: 6rem;
+    }
+
+    .section__div--empresa {
+        width: 80%;
+    }
+
+    .section__div--empresa p {
+        line-height: 1.8rem;
+        font-size: 0.8rem;
+    }
+
+    #boton__catalogo--empresa {
+        top: -1.5rem;
+
+        font-size: 1.3rem;
+    }
+
+    #boton__catalogo--empresa:hover {
+        font-size: 1.8rem;
+    }
+
+    .main__section--ubicacion h2::before {
+        width: 110%;
+        height: 60%;
+    }
+
+    .ubicacion__mapa--contenedor {
+        margin-bottom: 4rem;
+    }
+
+    .main__section--ubicacion a {
+        display: none;
+    }
+
+    .footer__img--logo {
+        height: 2rem;
+    }
+
+    .footer__nav--enlaces {
+        display: none;
+    }
+
+    .footer__nav--contacto {
+        display: none;
+    }
+
+    #boton__contactanos--footer {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.6rem;
     }
 }
